@@ -12,3 +12,5 @@ Deployment is easiest with the provided `token.sol.txt` which includes all the f
 - Token decimals: *18*
 
 Token contains only basic, standard functionality.
+
+An example deployment is made at https://ropsten.etherscan.io/address/0x24aba3c5a5ab8303976da3bd52ac2a469f8f316b#code
