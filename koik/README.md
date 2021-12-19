@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# Koik token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This is a standard ERC-20 token. Or to be more precise, a BEP-20 token, since this will be utilized in BSC network.
 
-Try running some of the following tasks:
+Deployment is easiest with the provided `token.sol.txt` which includes all the flattened contracts.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## Token specifications
+
+- Token name: *EatEarn*
+- Token symbol: *EAE*
+- Token initial supply: *22 million*
+- Token decimals: *18*
+
+Token contains only basic, standard functionality.
